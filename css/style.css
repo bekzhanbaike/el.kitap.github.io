@@ -1,0 +1,355 @@
+@import "https://fonts.googleapis.com/css?family=Roboto+Slab|Suez+One";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+table {
+  text-align: center;
+}
+
+a {
+  color: #fa713e;
+  text-decoration: none;
+  transition: all.6s ease;
+  -ms-transition: all.6s ease;
+  -o-transition: all.6s ease;
+  -moz-transition: all.6s ease;
+  -webkit-transition: all.6s ease;
+}
+
+a:hover {
+  color: #c34f25;
+  text-decoration: none;
+  transition: all.6s ease;
+  -ms-transition: all.6s ease;
+  -o-transition: all.6s ease;
+  -moz-transition: all.6s ease;
+  -webkit-transition: all.6s ease;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  width: auto\9; /* ie8 */
+  /* -moz-transition: all 3s ease-out;
+    -o-transition: all 3s ease-out;
+    -webkit-transition: all 3s ease-out;*/
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+header {
+  float: left;
+  background-color: #343434;
+  width: 99.4%;
+  padding: 0.3%;
+  border-bottom: 5px solid #59595a;
+}
+
+header > div#logo > a > img {
+  width: 70px;
+  height: 50px;
+  float: left;
+}
+
+header > div#logo > a {
+  color: white;
+}
+
+header > div#logo > a > span {
+  font-size: 2.5em;
+  margin-left: 10px;
+  font-family: "Suez One", serif;
+  color: rgb(72, 255, 255);
+}
+
+header > div#logo > a > h4 {
+  font-size: 2.5em;
+  margin-left: 10px;
+  font-family: "Suez One", serif;
+  color: rgb(238, 255, 1);
+}
+
+.search-box{
+  position: absolute;
+  right: 2%;
+  top: 10px;
+  transform: translate(-50% -50%);
+  background: #ffffff;
+  height: 20px;
+  border-radius: 40px;
+  padding: 10px;
+}
+
+
+.search-btn{
+  float: right;
+  color: rgb(255, 7, 7);
+  cursor: pointer;
+  margin-left: 4px;
+  margin-right: 5px;
+  border-radius: 50%;
+}
+.search-btn:hover{
+  color: #000;
+}
+
+.search-txt{
+  float: left;
+  border: none;
+  background: none;
+  outline: none;
+  color: #000;
+  font-size: 15px;
+  padding: 0;
+  transition: 0.4s;
+  width: 200px;
+}
+
+
+
+
+
+#about {
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+  font-size: 1.4em;
+  padding-top: 10px;
+}
+
+#about > a {
+  color: white;
+}
+
+#about > a:hover {
+  color: #dfdfdf;
+  border-bottom: 1px solid silver;
+}
+
+#about > a:last-child {
+  margin-left: 10%;
+}
+
+
+
+/* Конец стили для шапки сайта */
+
+/* Основная часть */
+#wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+#content {
+  flex: 1 0 auto;
+}
+/* КОНЕЦ Основная часть */
+
+/* Футер Сайта */
+footer {
+  float: left;
+  background-color: #343434;
+  width: 98%;
+  padding: 1%;
+  border-top: 5px solid #59595a;
+  font-family: "Roboto Slab", serif;
+}
+
+#site_name {
+  margin-right: 5%;
+  color: #f4f4f4;
+  font-size: 1.5em;
+  float: left;
+}
+
+#site_name > span {
+  font-family: "Suez One", serif;
+}
+
+#site_name1 {
+  margin-left: 2%;
+  color: #f4f4f4;
+  font-size: 1.5em;
+  float: left;
+}
+
+#site_name1 > span {
+  font-family: "Suez One", serif;
+}
+@media (max-width: 1080px) {
+  #clear {
+    clear: both;
+  }
+}
+
+#footer_menu {
+  color: #f4f4f4;
+  font-size: 1.2em;
+  float: right;
+  margin-right: 50px;
+  margin-top: 15px;
+}
+
+#footer_menu a {
+  background-color: #000000;
+  border-radius: 10px;
+  color: rgb(255, 255, 255);
+  padding: 5px;
+}
+
+#footer_menu a:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+
+
+#wrapp {
+  width: 100%;
+}
+#wrapp #leftCol {
+  width: 15%;
+  height: 100%;
+  margin-left: 0%;
+  background-color: #9e9e9e;
+  float: left;
+  margin-top: 0px;
+}
+
+#wrapp #wrap {
+  width: 70%;
+  height: 100%;
+  background-color: #ffffff;
+  float: center;
+  margin-left: 15%;
+  margin-right: 15%;
+  border: 2px solid rgb(99, 98, 98);
+  box-sizing: border-box;
+}
+#wrapp #rightCol {
+  width: 15%;
+  height: 100%;
+  background-color: #9e9e9e;
+  float: right;
+}
+#wrapp #wrap p {
+  font-family: "Times New Roman", sans-serif;
+  border-radius: 10%;
+}
+#auth {
+  margin-top: 11.7%;
+}
+#auth input {
+  width: 20%;
+  margin-left: 40%;
+  float: left;
+  border-radius: 5px;
+  border: 2px solid silver;
+  padding: 5px;
+  color: #085769;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+}
+
+#auth input:focus,
+#wrapper #leftCol textarea:focus {
+  border: 2px solid #f75454;
+}
+
+#auth input#done:hover {
+  border: 2px solid #f59944;
+  cursor: pointer;
+}
+
+#topNubex {
+  margin-left: 10px;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+  width: 40px;
+  height: 40px;
+  float: left;
+  margin-bottom: 2%;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  line-height: 50px;
+  font-size: 1.4em;
+  position: fixed;
+}
+
+#about_us {
+  width: 76%;
+  margin-left: 7%;
+  padding: 5%;
+  font-family: "Roboto Slab", serif;
+}
+
+#about_us h2 {
+  font-weight: normal;
+  font-size: 1.5em;
+  color: #000000;
+  font-family: "Times New Roman", sans-serif;
+  text-align: center;
+}
+
+/* Стили для Проектирование */
+
+#about_us div {
+  padding: 5px;
+  background-color: #cacaca;
+  border-radius: 10px;
+  color: black;
+
+  margin-top: 5px;
+}
+
+#about_us div:hover {
+  background-color: #080808;
+  color: #fff;
+}
+
+#sabak {
+  margin-left: 12%;
+  margin-right: 12%;
+  font-family: "Roboto Slab", serif;
+}
+#sabak h2 {
+  text-align: center;
+}
+#sabak h4 {
+  margin-left: 5%;
+}
+
+#sabak div {
+  text-align: center;
+  padding: 5px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px;
+  color: rgb(255, 255, 255);
+  font-family: "Roboto Slab", serif;
+}
+#sabak div:hover {
+  background-color: rgb(114, 112, 112);
+}
+
+.text-right {
+  text-align: right;
+}
+
+.img_whatsapp{
+  cursor: pointer;
+}
